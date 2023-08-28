@@ -322,15 +322,6 @@ h3 {
   row-gap: 48px;
 }
 
-.card-info {
-  padding: 32px 0;
-}
-
-.text {
-  text-align: center;
-  margin-top: 60px;
-}
-
 .portfolio-list .portfolio-list-item {
   border: 1px solid #e7e9fc;
   background: #fff;
