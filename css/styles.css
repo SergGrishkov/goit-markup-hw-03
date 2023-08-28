@@ -339,7 +339,7 @@ h3 {
   row-gap: 48px;
 }
 
-.portfolio-list-item {
+.portfolio-list .portfolio-list-item {
   border: 1px solid #e7e9fc;
   background: #fff;
   width: calc((100% - 48px) / 3);
@@ -415,6 +415,6 @@ h3 {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  display: inline-block;
+  display: block;
   margin-bottom: 16px;
 }
