@@ -102,7 +102,6 @@ img {
   display: flex;
   align-items: flex-start;
   gap: 40px;
-  padding: 24px 0 24px;
 }
 
 .item-ref {
@@ -121,10 +120,6 @@ img {
   text-decoration: underline;
 }
 
-/* nav .menu li a:active {
-  color: #404bbf;
-} */
-
 .page-header-container {
   display: flex;
 }
@@ -134,6 +129,7 @@ img {
   gap: 40px;
   padding: 24px 0 24px;
 }
+
 .contacts {
   color: #434455;
   font-family: Roboto;
@@ -270,7 +266,6 @@ h3 {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
-  margin-bottom: 72px;
 }
 
 .section-third .section-head {
@@ -320,12 +315,6 @@ h3 {
   column-gap: 24px;
   row-gap: 48px;
 }
-/* 
-.card-info {
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
-} */
 
 .card-info {
   padding: 32px 0;
@@ -336,10 +325,17 @@ h3 {
   margin-top: 60px;
 }
 
+.our-portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
 .portfolio-list-item {
-  /* border: 1px solid #e7e9fc; */
+  border: 1px solid #e7e9fc;
   background: #fff;
-  max-width: calc((100% - 48px) / 3);
+  width: calc((100% - 48px) / 3);
   overflow: hidden;
 }
 
@@ -365,6 +361,7 @@ h3 {
 
 .footer-logo-studio {
   color: #f4f4fd;
+  display: inline-block;
 }
 
 .footer-description {
@@ -388,5 +385,4 @@ h3 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 16px;
-  display: inline-block;
 }
