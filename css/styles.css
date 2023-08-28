@@ -331,13 +331,6 @@ h3 {
   margin-top: 60px;
 }
 
-.our-portfolio-list {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
-}
-
 .portfolio-list .portfolio-list-item {
   border: 1px solid #e7e9fc;
   background: #fff;
