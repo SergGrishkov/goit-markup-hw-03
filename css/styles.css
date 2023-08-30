@@ -76,7 +76,7 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   align-items: center;
-  padding: 24px 0;
+  /* padding: 24px 0; */
 }
 
 .logo {
@@ -118,7 +118,6 @@ img {
 .item-ref:focus,
 .item-ref:hover {
   color: #404bbf;
-  text-decoration: underline;
 }
 
 .page-header-container {
@@ -128,7 +127,6 @@ img {
 .contacts-list {
   display: flex;
   gap: 40px;
-  padding: 24px 0 24px;
 }
 
 .contacts {
@@ -253,8 +251,6 @@ h3 {
 
 .section-third {
   background: #f4f4fd;
-  margin-top: 120px;
-  margin-bottom: 120px;
   padding: 120px 0;
 }
 
@@ -267,7 +263,6 @@ h3 {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
-  margin-bottom: 72px;
 }
 
 .section-third .section-head {
@@ -277,7 +272,6 @@ h3 {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.4px;
-  margin-top: 32px;
   margin-bottom: 8px;
   text-align: center;
 }
@@ -296,7 +290,6 @@ h3 {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-  padding-bottom: 32px;
 }
 
 .our-team-list-item .card-info {
@@ -371,7 +364,6 @@ footer {
   line-height: 24px;
   letter-spacing: 0.32px;
   width: 264px;
-  margin-top: 18px;
 }
 
 .logo-footer {
